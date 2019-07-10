@@ -1,3 +1,3 @@
  # GitBook
-GitBookƒTƒCƒgiURL: [https://s-mobi01.github.io/GitBookDocCreationProcedure](https://s-mobi01.github.io/SyGitBookDocCreationProcedure)j‚ÖƒWƒƒƒ“ƒv
+GitBookã‚µã‚¤ãƒˆï¼ˆURL: [https://s-mobi01.github.io/GitBookDocCreationProcedure](https://s-mobi01.github.io/SyGitBookDocCreationProcedure)ï¼‰ã¸ã‚¸ãƒ£ãƒ³ãƒ—
 
