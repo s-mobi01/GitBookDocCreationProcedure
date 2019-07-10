@@ -1,3 +1,2 @@
  # GitBook
-GitBookサイト（URL: https://s-mobi01.github.io/GitBookDocCreationProcedure/）へジャンプ
-
+GitBookサイト（URL: [https://s-mobi01.github.io/GitBookDocCreationProcedure/](https://s-mobi01.github.io/GitBookDocCreationProcedure/)）へジャンプ
