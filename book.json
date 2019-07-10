@@ -1,0 +1,25 @@
+{
+    "title": "GitBook Document Creation procedure", 
+    "description": "", 
+    "language": "ja",
+    "plugins": [
+        "hide-published-with", 
+        "-sharing", 
+        "-lunr", 
+        "-search", 
+        "search-pro-kui", 
+        "expandable-chapters"
+    ],
+    "pdf": {
+        "toc": true,
+        "pageNumbers": true,
+        "fontSize": 12,
+        "paperSize": "a4",
+        "margin": {
+            "right": 36,
+            "left": 36,
+            "top": 24,
+            "bottom": 24
+        }
+    }
+}

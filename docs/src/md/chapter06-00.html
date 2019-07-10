@@ -1,0 +1,370 @@
+
+<!DOCTYPE HTML>
+<html lang="ja" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>GitBookファイル生成 · GitBook Document Creation procedure</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro-kui/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="chapter07-00.html" />
+    
+    
+    <link rel="prev" href="chapter05-00.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="検索すると入力" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="chapter00-00.html">
+            
+                <a href="chapter00-00.html">
+            
+                    
+                    はじめに
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="chapter01-00.html">
+            
+                <a href="chapter01-00.html">
+            
+                    
+                    GitBookの種類について
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="chapter02-00.html">
+            
+                <a href="chapter02-00.html">
+            
+                    
+                    前提条件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="chapter03-00.html">
+            
+                <a href="chapter03-00.html">
+            
+                    
+                    GitBookクライアントのインストール
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="chapter04-00.html">
+            
+                <a href="chapter04-00.html">
+            
+                    
+                    GitBookプロジェクト
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="chapter05-00.html">
+            
+                <a href="chapter05-00.html">
+            
+                    
+                    プラグインのインストール
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="chapter06-00.html">
+            
+                <a href="chapter06-00.html">
+            
+                    
+                    GitBookファイル生成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="chapter07-00.html">
+            
+                <a href="chapter07-00.html">
+            
+                    
+                    website公開
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="chapter50-00.html">
+            
+                <a href="chapter50-00.html">
+            
+                    
+                    付録1．ノードモジュールの作成・登録
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            GitBookで公開 
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >GitBookファイル生成</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="gitbook&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x751F;&#x6210;">GitBook&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x751F;&#x6210;</h1>
+<p>GitBook&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x751F;&#x6210;&#x65B9;&#x6CD5;&#x3092;&#x4EE5;&#x4E0B;&#x306B;&#x793A;&#x3059;&#x3002;</p>
+<h2 id="&#x30D3;&#x30EB;&#x30C9;">&#x30D3;&#x30EB;&#x30C9;</h2>
+<p>&#x4F5C;&#x6210;&#x3057;&#x305F;Markdown&#x30B3;&#x30F3;&#x30C6;&#x30F3;&#x30C4;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x3001;GitBook&#x3068;&#x3057;&#x3066;&#x6271;&#x3048;&#x308B;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306B;&#x751F;&#x6210;&#x3059;&#x308B;&#x305F;&#x3081;&#x30D3;&#x30EB;&#x30C9;&#x3092;&#x884C;&#x3046;&#x3002;&#x30D3;&#x30EB;&#x30C9;&#x7D50;&#x679C;&#x306F;&#x4EFB;&#x610F;&#x306E;&#x30D5;&#x30A9;&#x30EB;&#x30C0;&#x306B;&#x683C;&#x7D0D;&#x53EF;&#x80FD;&#x3067;&#x3042;&#x308B;&#x304C;&#x3001;&#x672C;&#x66F8;&#x3067;&#x306F;&#x3001;github.com&#x306E;&#x30EA;&#x30DD;&#x30B8;&#x30C8;&#x30EA;&#x306E;&#x95A2;&#x4FC2;&#x3067;&#x3001;&#x300C;docs&#x300D;&#x30D5;&#x30A9;&#x30EB;&#x30C0;&#x3092;&#x4F8B;&#x3068;&#x3057;&#x3066;&#x8A18;&#x8FF0;&#x3059;&#x308B;&#x3002;</p>
+<p>&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x30D7;&#x30ED;&#x30F3;&#x30D7;&#x30C8;&#x3067;&#x4EE5;&#x4E0B;&#x306E;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x3092;&#x5B9F;&#x884C;&#x3057;&#x3001;&#x30D7;&#x30ED;&#x30B8;&#x30A7;&#x30AF;&#x30C8;&#x3092;&#x30D3;&#x30EB;&#x30C9;&#x3059;&#x308B;&#x3002;</p>
+<pre><code class="lang-command">&gt; gitbook build ./ ./docs
+</code></pre>
+<p>&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x6A29;&#x306B;&#x4FC2;&#x308B;&#x30A8;&#x30E9;&#x30FC;&#x306B;&#x306A;&#x308B;&#x5834;&#x5408;&#x306F;&#x518D;&#x5EA6;&#x5B9F;&#x65BD;&#x3059;&#x308B;&#x3053;&#x3068;&#x3067;&#x89E3;&#x6D88;&#x3059;&#x308B;&#x5834;&#x5408;&#x304C;&#x3042;&#x308B;&#x3002;&#xFF08;&#x30D3;&#x30EB;&#x30C9;&#x4E2D;&#x3084;&#x30C6;&#x30B9;&#x30C8;&#x4E2D;&#x306F;&#x3001;docs&#x30D5;&#x30A9;&#x30EB;&#x30C0;&#x5185;&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306B;&#x6392;&#x4ED6;&#x5236;&#x9650;&#x304C;&#x304B;&#x304B;&#x308B;&#x305F;&#x3081;&#x3001;&#x30BF;&#x30A4;&#x30DF;&#x30F3;&#x30B0;&#x306B;&#x3088;&#x3063;&#x3066;&#x306F;&#x30A8;&#x30E9;&#x30FC;&#x3068;&#x306A;&#x308B;&#x5834;&#x5408;&#x304C;&#x3042;&#x308B;&#xFF09;</p>
+<h2 id="&#x30C6;&#x30B9;&#x30C8;&#xFF08;lan&#x5185;&#x516C;&#x958B;&#xFF09;">&#x30C6;&#x30B9;&#x30C8;&#xFF08;LAN&#x5185;&#x516C;&#x958B;&#xFF09;</h2>
+<p>website&#x3067;&#x306E;&#x516C;&#x958B;&#x306B;&#x5148;&#x7ACB;&#x3061;&#x3001;&#x30ED;&#x30FC;&#x30AB;&#x30EB;&#x74B0;&#x5883;&#x3067;&#x8868;&#x793A;&#x78BA;&#x8A8D;&#x3092;&#x884C;&#x3046;&#x305F;&#x3081;&#x3001;&#x4EE5;&#x4E0B;&#x306E;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x3092;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3002;</p>
+<pre><code class="lang-command">&gt; gitbook serve ./ ./docs
+</code></pre>
+<p>&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x6A29;&#x306B;&#x4FC2;&#x308B;&#x30A8;&#x30E9;&#x30FC;&#x306B;&#x306A;&#x308B;&#x5834;&#x5408;&#x306F;&#x518D;&#x5EA6;&#x5B9F;&#x65BD;&#x3059;&#x308B;&#x3053;&#x3068;&#x3067;&#x89E3;&#x6D88;&#x3059;&#x308B;&#x5834;&#x5408;&#x304C;&#x3042;&#x308B;&#x3002;&#xFF08;&#x8A73;&#x7D30;&#x306F;&#x524D;&#x9805;&#x53C2;&#x7167;&#xFF09;</p>
+<p>&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3088;&#x308A;&#x3001;&#x4EE5;&#x4E0B;&#x306B;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x3057;&#x3001;GitBook&#x30DA;&#x30FC;&#x30B8;&#x3092;&#x78BA;&#x8A8D;&#x3059;&#x308B;</p>
+<p><a href="http://localhost:4000/" target="_blank">http://localhost:4000/</a> </p>
+<h2 id="ebook&#x5F62;&#x5F0F;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x4F5C;&#x6210;">ebook&#x5F62;&#x5F0F;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x4F5C;&#x6210;</h2>
+<p>&#x4F5C;&#x6210;&#x3057;&#x305F;Markdown&#x30B3;&#x30F3;&#x30C6;&#x30F3;&#x30C4;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;ebook&#x5F62;&#x5F0F;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x5F62;&#x5F0F;&#x3067;&#x51FA;&#x529B;&#x3059;&#x308B;&#x5834;&#x5408;&#x306F;&#x3001;&#x4EE5;&#x4E0B;&#x306E;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3002;</p>
+<pre><code class="lang-command">&gt; gitbook help          &#x2190; &#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x306E;&#x8A73;&#x7D30;&#x3092;&#x8ABF;&#x3079;&#x305F;&#x3044;&#x5834;&#x5408;
+&gt; gitbook pdf           &#x2190; pdf&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x51FA;&#x529B;&#x306E;&#x5834;&#x5408;
+&gt; gitbook epub          &#x2190; epub&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x51FA;&#x529B;&#x306E;&#x5834;&#x5408;
+&gt; gitbook mobi          &#x2190; mobi&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x51FA;&#x529B;&#x306E;&#x5834;&#x5408;
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="chapter05-00.html" class="navigation navigation-prev " aria-label="Previous page: プラグインのインストール">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="chapter07-00.html" class="navigation navigation-next " aria-label="Next page: website公開">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"GitBookファイル生成","level":"1.8","depth":1,"next":{"title":"website公開","level":"1.9","depth":1,"path":"src/md/chapter07-00.md","ref":"src/md/chapter07-00.md","articles":[]},"previous":{"title":"プラグインのインストール","level":"1.7","depth":1,"path":"src/md/chapter05-00.md","ref":"src/md/chapter05-00.md","articles":[]},"dir":"ltr"},"config":{"plugins":["hide-published-with","-sharing","-lunr","-search","search-pro-kui","expandable-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"hide-published-with":{},"search-pro-kui":{},"expandable-chapters":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":36,"left":36,"top":24,"bottom":24},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"GitBook Document Creation procedure","language":"ja","gitbook":"*","description":""},"file":{"path":"src/md/chapter06-00.md","mtime":"2019-07-10T02:10:33.427Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-10T02:29:21.387Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-published-with/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro-kui/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro-kui/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
