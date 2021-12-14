@@ -283,16 +283,20 @@
 <pre><code class="lang-command">&gt; npm install -g gitbook
 </code></pre>
 <p>&#x51E6;&#x7406;&#x7D42;&#x4E86;&#x5F8C;&#x3001;&#x524D;&#x9805;&#x306B;&#x5F93;&#x3044;&#x3001;&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;&#x304C;&#x6B63;&#x3057;&#x304F;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x3053;&#x3068;&#x3092;&#x78BA;&#x8A8D;&#x3059;&#x308B;&#x3002;</p>
-<p>&#x4EE5;&#x4E0B;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x5834;&#x5408;&#x306F;&#x300C;gitbook-cli&#x300D;&#x3092;&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x3059;&#x308B;</p>
+<p>&#x4EE5;&#x4E0B;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x5834;&#x5408;&#x306F;&#x3001;&#x524D;&#x9805;&#x306B;&#x3066;&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x3057;&#x305F;&#x300C;gitbook&#x300D;&#x3092;&#x30A2;&#x30F3;&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x3057;&#x3001;&#x300C;gitbook-cli&#x300D;&#x3092;&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x3059;&#x308B;</p>
 <pre><code class="lang-msg">You need to install &quot;gitbook-cli&quot; to have access to the gitbook command anywhere on your system.
 If you&apos;ve installed this package globally, you need to uninstall it.
 &gt;&gt; Run &quot;npm uninstall -g gitbook&quot; then &quot;npm install -g gitbook-cli&quot;
 </code></pre>
-<p>&#x30FB;&#x300C;gitbook-cli&#x300D;&#x306E;&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;</p>
-<pre><code class="lang-command">&gt; npm install -g gitbook-cli
+<p>&#x30FB;&#x300C;gitbook&#x300D;&#x3092;&#x30A2;&#x30F3;&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x3068;&#x300C;gitbook-cli&#x300D;&#x306E;&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;</p>
+<pre><code class="lang-command">&gt; npm uninstall -g gitbook
+&gt; npm install -g gitbook-cli
 </code></pre>
 <p>&#x51E6;&#x7406;&#x7D42;&#x4E86;&#x5F8C;&#x3001;&#x524D;&#x9805;&#x306B;&#x5F93;&#x3044;&#x3001;&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;&#x304C;&#x6B63;&#x3057;&#x304F;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x3053;&#x3068;&#x3092;&#x78BA;&#x8A8D;&#x3059;&#x308B;&#x3002;</p>
-
+<h2 id="&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x30A8;&#x30E9;&#x30FC;&#x6642;&#x306E;&#x305D;&#x306E;&#x4ED6;&#x306E;&#x5BFE;&#x7B56;">&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x30A8;&#x30E9;&#x30FC;&#x6642;&#x306E;&#x305D;&#x306E;&#x4ED6;&#x306E;&#x5BFE;&#x7B56;</h2>
+<p>&#x4EE5;&#x4E0B;&#x306E;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3068;&#x306A;&#x308B;&#x30A8;&#x30E9;&#x30FC;&#x306E;&#x5834;&#x5408;&#x3001;&#x300C;polyfills.js giitbook&#x300D;&#x3067;&#x30A4;&#x30F3;&#x30BF;&#x30FC;&#x30CD;&#x30C3;&#x30C8;&#x691C;&#x7D22;&#x3059;&#x308B;&#x3068;&#x3044;&#x304F;&#x3064;&#x304B;&#x306E;&#x5BFE;&#x7B56;&#x6848;&#x304C;&#x898B;&#x3064;&#x3051;&#x3089;&#x308C;&#x308B;&#x3002;&#xFF08;&#x5185;&#x5BB9;&#x7701;&#x7565;&#xFF09;</p>
+<pre><code>if (cb) cb.apply(this, arguments)
+</code></pre>
                                 
                                 </section>
                             
@@ -335,7 +339,7 @@ If you&apos;ve installed this package globally, you need to uninstall it.
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"GitBookクライアントのインストール","level":"1.5","depth":1,"next":{"title":"GitBookプロジェクト","level":"1.6","depth":1,"path":"src/md/chpt0400.md","ref":"src/md/chpt0400.md","articles":[]},"previous":{"title":"前提条件","level":"1.4","depth":1,"path":"src/md/chpt0200.md","ref":"src/md/chpt0200.md","articles":[]},"dir":"ltr"},"config":{"plugins":["hide-published-with","-sharing","-lunr","-search","search-pro-kui","expandable-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"hide-published-with":{},"search-pro-kui":{},"expandable-chapters":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":36,"left":36,"top":24,"bottom":24},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"GitBook Document Creation procedure","language":"ja","gitbook":"*","description":""},"file":{"path":"src/md/chpt0300.md","mtime":"2019-09-03T04:03:53.320Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-03T04:05:00.969Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"GitBookクライアントのインストール","level":"1.5","depth":1,"next":{"title":"GitBookプロジェクト","level":"1.6","depth":1,"path":"src/md/chpt0400.md","ref":"src/md/chpt0400.md","articles":[]},"previous":{"title":"前提条件","level":"1.4","depth":1,"path":"src/md/chpt0200.md","ref":"src/md/chpt0200.md","articles":[]},"dir":"ltr"},"config":{"plugins":["hide-published-with","-sharing","-lunr","-search","search-pro-kui","expandable-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"hide-published-with":{},"search-pro-kui":{},"expandable-chapters":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":36,"left":36,"top":24,"bottom":24},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"GitBook Document Creation procedure","language":"ja","gitbook":"*","description":""},"file":{"path":"src/md/chpt0300.md","mtime":"2021-12-14T06:27:23.773Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-14T06:30:03.398Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
